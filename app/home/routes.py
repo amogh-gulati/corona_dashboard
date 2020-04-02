@@ -6,12 +6,12 @@ Copyright (c) 2019 - present AppSeed.us
 
 from app.home import blueprint
 from flask import render_template, redirect, url_for
-from flask_login import login_required, current_user
-from app import login_manager
+# from flask_login import login_required, current_user
+# from app import login_manager
 from jinja2 import TemplateNotFound
 
 @blueprint.route('/index')
-@login_required
+# @login_required
 def index():
     
     # if not current_user.is_authenticated:
@@ -22,8 +22,8 @@ def index():
 @blueprint.route('/<template>')
 def route_template(template):
 
-    if not current_user.is_authenticated:
-        return redirect(url_for('base_blueprint.login'))
+    # if not current_user.is_authenticated:
+    #     return redirect(url_for('base_blueprint.login'))
 
     try:
 

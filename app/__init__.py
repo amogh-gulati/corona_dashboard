@@ -12,11 +12,11 @@ from logging import basicConfig, DEBUG, getLogger, StreamHandler
 from os import path
 
 db = SQLAlchemy()
-login_manager = LoginManager()
+# login_manager = LoginManager()
 
 def register_extensions(app):
     db.init_app(app)
-    login_manager.init_app(app)
+    # login_manager.init_app(app)
 
 def register_blueprints(app):
     for module_name in ('base', 'home'):
