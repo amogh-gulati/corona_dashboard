@@ -774,3 +774,7 @@ INFO:werkzeug: * Detected change in '/mnt/c/Users/amogh/Documents/Dashboard/run.
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 185-820-654
+INFO:werkzeug: * Detected change in '/mnt/c/Users/amogh/Documents/Dashboard/app/home/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 185-820-654
